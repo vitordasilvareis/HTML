@@ -1,52 +1,17 @@
-body {
-    background-color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.container {
-    background-color: white;
-    padding: 40px;
-    border-radius: 15px;
-    text-align: center;
-    box-shadow: 0px 0px 25px rgba(255,255,255,0.2);
-    width: 400px;
+body {
+    background-color: #383838;
 }
 
 h1 {
-    color: black;
-    margin-bottom: 25px;
-    font-size: 35px;
+    color: white;
 }
 
-#mensagem {
-    color: yellow;
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 25px;
-    min-height: 60px;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 5px rgb(98, 165, 118);
-}
-
-button {
-    background-color: rgba(0, 0, 0, 0.986);
-    color: rgb(236, 229, 229);
-    border: 2px solid rgb(148, 134, 134);
-    padding: 15px 30px;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 18px;
-    transition: 0.3s;
-}
-
-button:hover {
-    background-color: rgb(207, 35, 13);
-    color: rgb(70, 151, 147);
-    border: 2px solid rgb(17, 15, 15);
-    transform: scale(1.05);
+p {
+    color: white;
 }
